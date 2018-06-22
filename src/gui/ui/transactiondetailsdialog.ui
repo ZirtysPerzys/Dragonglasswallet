@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Transaction details</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../../resources.qrc">
+    <normaloff>:/images/cryptonote</normaloff>:/images/cryptonote</iconset>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTextBrowser" name="m_detailsBrowser">
@@ -534,7 +538,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../resources.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>m_closeButton</sender>

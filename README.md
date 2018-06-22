@@ -3,7 +3,7 @@ Building wallet
 ```
 mkdir build && cd build && cmake .. && make
 ```
-
+add copy of folder DRGL
 
 
 After wallet is built, "Dragonglasswallet" executable will be found in (build/src)

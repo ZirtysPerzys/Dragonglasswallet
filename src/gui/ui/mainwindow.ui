@@ -464,11 +464,17 @@
    <string>MainWindow</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../../resources.qrc">
-    <normaloff>:/icons/unconfirmed</normaloff>:/icons/unconfirmed</iconset>
+   <iconset>
+    <normaloff>../../images/cryptonote.ico</normaloff>../../images/cryptonote.ico</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="palette">
@@ -2293,7 +2299,7 @@
      <x>0</x>
      <y>0</y>
      <width>744</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="palette">

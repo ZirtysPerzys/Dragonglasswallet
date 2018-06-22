@@ -457,7 +457,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../../../Documents/dl.png</normaloff>../../../../Documents/dl.png</iconset>
+    <normaloff>../../images/cryptonote.png</normaloff>../../images/cryptonote.png</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>

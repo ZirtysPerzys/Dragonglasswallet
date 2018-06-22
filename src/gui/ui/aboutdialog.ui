@@ -446,6 +446,10 @@
   <property name="windowTitle">
    <string>About %1</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../../resources.qrc">
+    <normaloff>:/images/images/cryptonote.ico</normaloff>:/images/images/cryptonote.ico</iconset>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
    <item>
     <widget class="QLabel" name="m_aboutLabel">
@@ -1060,7 +1064,7 @@ background-color: qradialgradient(spread:pad, cx:0.505, cy:0.153, radius:0.158, 
       <number>0</number>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline;&quot;&gt;Dragonglass&lt;/span&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:6pt; text-decoration: underline;&quot;&gt;version 1.8&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Dragonglass&lt;span style=&quot; font-size:10pt;&quot;&gt; is a next generation anonymous cryptocurrency&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;BASED UPon CryptoNote&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; font-size:6pt; text-decoration: underline; color:#0055ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; font-size:6pt; text-decoration: underline; color:#0055ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Dr&lt;/span&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Æ&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;g&lt;/span&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;nglass&lt;/span&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;is  a next generation anonymous cryptocurrency&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;BASED UPon CryptoNote&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; font-size:6pt; text-decoration: underline; color:#0055ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; font-size:6pt; text-decoration: underline; color:#0055ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="textFormat">
       <enum>Qt::RichText</enum>

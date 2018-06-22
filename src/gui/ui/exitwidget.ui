@@ -435,6 +435,10 @@
   <property name="windowTitle">
    <string>Saving data</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../../resources.qrc">
+    <normaloff>:/images/cryptonote</normaloff>:/images/cryptonote</iconset>
+  </property>
   <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1">
    <item>
     <widget class="QLabel" name="m_clockLabel">
@@ -864,7 +868,7 @@
       <font>
        <family>Game of Thrones</family>
        <pointsize>11</pointsize>
-       <weight>7</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
        <underline>false</underline>
@@ -882,6 +886,8 @@ Please wait...</string>
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
